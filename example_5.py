@@ -1,3 +1,5 @@
+#Dictionary example
+
 #students = ["Alice", "Bob", "Charlie", "David", "Eve"]
 #state = {"Alaska", "Arizona", "Arkansas", "California", "Colorado"}
 
