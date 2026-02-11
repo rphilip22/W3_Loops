@@ -1,8 +1,10 @@
-students = ["Alice", "Bob", "Charlie", "David", "Eve"]
+#students = ["Alice", "Bob", "Charlie", "David", "Eve"]
+#state = {"Alaska", "Arizona", "Arkansas", "California", "Colorado"}
 
-#for name in students:
-#    print(name)
+students = {"Alice": "Alaska", "Bob": "Arizona", "Charlie": "Arkansas", 
+            "David": "California", "Eve": "Colorado"}
 
+print(students["Alice"])
 
-for i in range(len(students)):
-    print(i+1, students[i])
+for name in students:
+    print(name, students[name])
