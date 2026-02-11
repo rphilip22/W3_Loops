@@ -1,5 +1,8 @@
 students = ["Alice", "Bob", "Charlie", "David", "Eve"]
 
-print(len(students))
+#for name in students:
+#    print(name)
 
-print(students[1])
+
+for i in range(len(students)):
+    print(i+1, students[i])
